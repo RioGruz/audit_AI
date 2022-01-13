@@ -16,7 +16,7 @@ def main():
 	st.image(slika)
 	st.markdown("EKSPLORATORNA ANALIZA PODATAKA I FORENZIČKI TESTOVI ZA REVIZIJSKE POSTUPKE")
 	password = st.text_input("Password", type='password')
-	if password != "kofidenca123":
+	if password != st.secrets["password"]:
 		st.write("Pogrešan password, pokušajte ponovno!")
 		st.stop()
 	else: 
