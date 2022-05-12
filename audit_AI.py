@@ -8,6 +8,7 @@ from PIL import Image
 import plotly.express as px
 from benfordslaw import benfordslaw
 import seaborn as sns
+import openpyxl
 
 ## Glavni program
 
